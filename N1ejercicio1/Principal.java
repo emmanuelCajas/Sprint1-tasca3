@@ -22,12 +22,15 @@ public class Principal {
 		arrayListMonth.add(new Month("Noviembre"));
 		arrayListMonth.add(new Month("Diciembre"));
 	
+		
+		//agregando agosto en posicion indicada
 		arrayListMonth.add(7, new Month("Agosto"));
 		
 		for (Month month : arrayListMonth) {
 			System.out.println(month);
 		}
-				
+		
+		
 		HashSet<Month> hashSetMonth = new HashSet<>(arrayListMonth);	
 		hashSetMonth.add(new Month("Marzo"));
 		

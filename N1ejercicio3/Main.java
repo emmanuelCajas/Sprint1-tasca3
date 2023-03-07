@@ -23,7 +23,7 @@ public class Main {
 	
 		//Accede al archivo y agrega el contenido al HashMap
 		try {
-			br = new BufferedReader(new FileReader("c:/Users/formacio/Desktop/paises.txt"));
+			br = new BufferedReader(new FileReader("c:/Users/rodri/Desktop/paises.txt"));
 			String linea;
 			
 				linea = br.readLine();
@@ -79,7 +79,7 @@ public class Main {
 		//Se crea un archivo para guardar el usuario y puntaje correspondiente
 		
 			try {
-				File archivo = new File("c:/Users/formacio/Desktop/prueba.txt");
+				File archivo = new File("c:/Users/rodri/Desktop/prueba.txt");
 				if(!archivo.exists()) {
 					archivo.createNewFile();
 					System.out.println("El archivo ha sido creado");
